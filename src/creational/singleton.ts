@@ -23,6 +23,7 @@ class Singleton {
 const s1 = Singleton.getInstance("Primera configuración");
 console.log(s1.getConfig()); // "Primera configuración"
 
+//La idea del singleton es que no importa que se cree otra instancia siempre sea la primera en instanciarse
 const s2 = Singleton.getInstance("Otra configuración");
 console.log(s2.getConfig()); // "Primera configuración" (ignora el nuevo valor)
 

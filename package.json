@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "singleton": "ts-node src/creational/singleton.ts",
-    "factory": "ts-node src/creational/factory-method.ts"
+    "factory-method": "ts-node src/creational/factory-method.ts",
+    "abstract-factory": "ts-node src/creational/abstract-factory.ts"
   },
   "keywords": [],
   "author": "",

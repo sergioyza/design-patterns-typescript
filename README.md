@@ -13,6 +13,7 @@ Instalar dependencias:
 
 ```bash
 npm install
+```
 
 ## ▶️ Ejecución de ejemplos
 
@@ -27,8 +28,11 @@ npm run factory
 
 # Ejecutar Observer
 npm run observer
+```
 
+## Estructura de patron de diseño
 
+```
 design-patterns-typescript/
 │
 ├── src/
@@ -41,3 +45,4 @@ design-patterns-typescript/
 ├── tsconfig.json
 ├── package.json
 └── README.md
+```
